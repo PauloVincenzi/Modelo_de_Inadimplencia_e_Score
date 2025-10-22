@@ -2,6 +2,8 @@
 
 Este projeto utiliza **regressão logística** para prever o **score de crédito** e a **inadimplência** de clientes. O modelo foi treinado com a base de dados *Default of Credit Card Clients*, fornecida pelo **UCI Machine Learning Repository**. Embora a base seja antiga e proveniente de um banco de Taiwan, os resultados podem ainda ser relevantes, dependendo do contexto, mas podem não refletir com precisão dados mais recentes ou específicos do Brasil.
 
+---
+
 ## Arquivos do Projeto
 
 - **relatorio.pdf**: Documento explicativo sobre a análise, incluindo identificação de problemas, métricas utilizadas, variáveis relevantes e a acurácia do modelo.
@@ -33,6 +35,8 @@ Antes de rodar o código ou executar o aplicativo, você precisa garantir que as
 
    ```bash
    pip install pandas scikit-learn matplotlib seaborn statsmodels xlrd
+
+---
 
 ## Rodando o programa
 
