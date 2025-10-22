@@ -56,4 +56,21 @@ O executável (.exe) gerado pelo PyInstaller para este projeto excede o limite d
 
 3. **Localizar o Executável:**
 
-   
+O executável será gerado na pasta build. Você pode encontrá-lo em:
+
+   ```bash
+   Modelo_de_Inadimplencia_e_Score\build\app.exe
+
+Mova o executável para a pasta raiz do projeto:
+
+   ```bash
+   Modelo_de_Inadimplencia_e_Score\app.exe
+
+4. **Limpeza Opcional**
+
+Se desejar, você pode excluir as pastas e arquivos temporários gerados pelo PyInstaller:
+- **build/**
+- **dist/**
+- **app.spec**
+
+Caso queira, você também pode renomear o executável **app.exe** para algo mais intuitivo, como **Calculadora_de_Score.exe**
