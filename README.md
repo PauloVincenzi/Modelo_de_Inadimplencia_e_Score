@@ -62,7 +62,7 @@ O executável (.exe) gerado pelo PyInstaller para este projeto excede o limite d
    Modelo_de_Inadimplencia_e_Score\build\app.exe
    ```
 
-   Mova o executável para a pasta raiz do projeto:
+   Após a geração, mova o executável para a pasta raiz do projeto:
 
    ```bash
    Modelo_de_Inadimplencia_e_Score\app.exe
