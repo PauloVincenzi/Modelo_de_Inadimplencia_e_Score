@@ -17,45 +17,43 @@ Todos os códigos estão devidamente documentados para facilitar a compreensão 
 
 Antes de rodar o código ou executar o aplicativo, você precisa garantir que as bibliotecas necessárias estejam instaladas no seu ambiente. Para isso, siga os passos abaixo:
 
+**No terminal (por exemplo, no VSCode), execute os seguintes comandos:**
+
 1. **Criar um ambiente virtual**:
-
-   No terminal (por exemplo, no VSCode), execute o seguinte comando para criar um ambiente virtual:
-
+   
    ```bash
    python -m venv venv
 
+2. **Ativar o ambiente virtual**
 
-1)
-  python -m venv venv
+   ```bash
+   .\venv\Scripts\activate
 
-2)
-No windowns:
-  .\venv\Scripts\activate
-No Linux/macOS:
-  source venv/bin/activate
+3. **Instalar bibliotecas necessárias**
 
-3)
-  pip install pandas scikit-learn matplotlib seaborn statsmodels xlrd
+   ```bash
+   pip install pandas scikit-learn matplotlib seaborn statsmodels xlrd
 
-# Rodar o programa
+## Rodando o programa
 
-Para abrir o aplicativo que prediz o Score e chance de inadimplência basta executar o arquivo 'app.py'
+### Executar o aplicativo
 
-O executável (.exe) desse arquivo excede o tamanho (100 mB) permitido pelo GitHub e por isso não foi anexado neste repositório, porém, caso queira criar um executável, siga os passos abaixo:
+Para abrir a interface gráfica que prevê o score e a chance de inadimplência, basta rodar o arquivo **app.py**
 
-No terminal:
+### Criando o Executável
 
-1)
-  pip install pyinstaller
+O executável (.exe) gerado pelo PyInstaller para este projeto excede o limite de 100MB do GitHub, por isso não foi anexado a este repositório. No entanto, se você deseja gerar o executável em seu ambiente local, siga os passos abaixo:
 
-2)
-  pyinstaller --onefile --windowed --add-data "modelos;modelos" --hidden-import sklearn app.py
+1. **Instalar o PyInstaller:**
 
-3)
-O executável 'app.exe' foi criado na pasta build ('Modelo_de_Inadimplencia_e_Score\build\app.exe')
-Transfira o executável para a pasta raiz ('Modelo_de_Inadimplencia_e_Score')
+   ```bash
+   pip install pyinstaller
 
-4)
-Opcional:
-Se quiser pode excluir as pastas e arquivos temporários gerados: build, dist e app.spec
-Se quiser renomei o executável 'app.exe' para 'Calculadora_de_Score.exe'
+2. **Criar o executável:**
+
+   ```bash
+   pyinstaller --onefile --windowed --add-data "modelos;modelos" --hidden-import sklearn app.py
+
+3. **Localizar o Executável:**
+
+   
