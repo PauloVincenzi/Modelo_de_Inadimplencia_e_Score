@@ -1,0 +1,5 @@
+# Ignorar a pasta venv
+venv/
+
+# Ignorar o executável
+*.exe
