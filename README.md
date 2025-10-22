@@ -56,12 +56,12 @@ O executável (.exe) gerado pelo PyInstaller para este projeto excede o limite d
 
 3. **Localizar o Executável:**
 
-O executável será gerado na pasta build. Você pode encontrá-lo em:
+   O executável será gerado na pasta build. Você pode encontrá-lo em:
 
    ```bash
    Modelo_de_Inadimplencia_e_Score\build\app.exe
 
-Mova o executável para a pasta raiz do projeto:
+   Mova o executável para a pasta raiz do projeto:
 
    ```bash
    Modelo_de_Inadimplencia_e_Score\app.exe
